@@ -10,7 +10,7 @@ interface SelectorProps {
           <h1 className="text-white text-xl font-bold mb-4">
             Selecione uma modalidade:
           </h1>
-          <div className="mb-4 border-b-2 border-[#4f4f4f]">
+          <div className="flex mb-4 border-b-2 border-[#4f4f4f] gap-2">
             <button
               onClick={() => setActivePage("volei-masc-avancado")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
@@ -46,7 +46,7 @@ interface SelectorProps {
               Vôlei Fem. Iniciante
             </button>
           </div>
-          <div className="mb-4 border-b-2 border-[#4f4f4f]">
+          <div className="flex mb-4 border-b-2 border-[#4f4f4f] gap-2">
             <button
               onClick={() => setActivePage("pingpong-masc-avancado")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
@@ -76,7 +76,7 @@ interface SelectorProps {
               PingPong Feminino
             </button>
           </div>
-          <div className="border-b-2 border-[#4f4f4f]">
+          <div className="flex border-b-2 border-[#4f4f4f] gap-2">
             <button
               onClick={() => setActivePage("valorant")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
