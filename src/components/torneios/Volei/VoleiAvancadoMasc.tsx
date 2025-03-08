@@ -9,7 +9,7 @@ export default function VoleiAvancadoMasc() {
       <div className="overflow-x-scroll h-screen overflow-y-hidden text-nowrap">
         <div className="flex mr-3 mt-16">
           <ol className="flex flex-1 flex-col round mr-9.5 translate-y-103">
-          <li className="min-w-[265px] text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="min-w-[285px] text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
               <Image src={LogoDs} alt="Logo" width={40} className="mx-4"/>
               Kelton e Pedro
             </li>
