@@ -38,15 +38,19 @@ body {
   - padding = 4px (.p-1)
 */ 
 .round:nth-child(1) .with-connector:after {
-  height: 25px;
+  height: 35px;
 }
 
 .round:nth-child(2) .with-connector:after {
   height: 60px;
 }
 
+.round:nth-child(2) .not-maain.with-connector:after {
+  height: 90px;
+}
+
 .round:nth-child(3) .with-connector:after {
-  height: 100px;
+  height: 120px;
 }
 
 .round:nth-child(4) .with-connector:after {
@@ -60,14 +64,17 @@ body {
 /*
   Incoming connector
  */
-.round + .round .with-connector:before {
+
+ .round + .round .com-connect.with-connector:before {
   content: ' ';
   position: absolute;
-  left: -1.75rem; /* competitor margin + current width */
+  left: -1.75rem;
   top: 50%;
-  width: 1.25rem; /* round margin-left */
+  width: 1.25rem;
   border-top: 2px solid #e2e8f0;
 }
+
+
 /* 
   Byes
 */ 
