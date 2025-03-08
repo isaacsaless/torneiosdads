@@ -5,10 +5,10 @@ import QuestionMark from "@/app/assets/question-mark.png";
 
 export default function VoleiInicianteFem() {
     return (
-      <div>
+      <div className="overflow-x-auto text-nowrap">
         <div className="flex mr-3 mt-16">
           <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
-            <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <li className="min-w-72 text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
               <Image src={LogoAdm} alt="LogoAgn" width={40} className="mx-4"/>
               Julia e Eduarda
             </li>
@@ -25,7 +25,7 @@ export default function VoleiInicianteFem() {
               Perdedor do 1° Jogo
             </li>
           </ol>
-          <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
+          <ol className="min-w-44 flex flex-1 flex-col justify-around mr-5 ml-5 round">
             <li className="text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
               Vencedor
@@ -38,7 +38,7 @@ export default function VoleiInicianteFem() {
           <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
           <li
               id="round-5"
-              className="text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
+              className="min-w-44 text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
             >
               <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
               Vencedor
