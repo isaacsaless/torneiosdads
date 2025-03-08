@@ -84,7 +84,7 @@ export default function VoleiAvancadoMasc() {
           <ol className="min-w-44 flex flex-1 flex-col justify-around mr-5 ml-5 round">
           <li
               id="round-5"
-              className="min-w-44 flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
+              className="text-xl min-w-44 flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
             >
               <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
               Vencedor
