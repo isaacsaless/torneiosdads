@@ -8,31 +8,55 @@ export default function VoleiInicianteFem() {
       <div className="overflow-x-auto text-nowrap">
         <div className="flex mr-3 mt-16">
           <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
-            <li className="min-w-72 text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <li className="min-w-72 text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+              <div className="flex flex-row items-center justify-center">
               <Image src={LogoAdm} alt="LogoAgn" width={40} className="mx-4"/>
-              Julia e Eduarda
+              <h1>Julia e Eduarda</h1>
+              </div>
+              <div className="flex flex-row items-center justify-center">
+                <div className="border-1 border-white-700 h-8"></div>
+                <h1 className="mr-5 ml-3">21</h1>
+              </div>
             </li>
-            <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <li className="text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <div className="flex flex-row items-center justify-center">
               <Image src={LogoSister} alt="LogoAgn" width={40} className="mx-4"/>
-              Marjorie e Kemilly
+              <h1>Marjorie e Kemilly</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+                <div className="border-1 border-white-700 h-8"></div>
+                <h1 className="mr-5 ml-3">12</h1>
+              </div>
             </li>
-            <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <li className="text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <div className="flex flex-row items-center justify-center">
               <Image src={LogoAdm} alt="LogoAgn" width={40} className="mx-4"/>
-              Kaylany e Danielle
+              <h1>Kaylany e Danielle</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+                <div className="border-1 border-white-700 h-8"></div>
+                <h1 className="mr-5 ml-3">21</h1>
+              </div>
             </li>
-            <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
-              Perdedor do 1° Jogo
+            <li className="text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <div className="flex flex-row items-center justify-center">
+            <Image src={LogoSister} alt="Logo" width={35} className="mx-4"/>
+              <h1>Marjorie e Kemilly</h1>
+              </div>
+              <div className="flex flex-row items-center justify-center">
+                <div className="border-1 border-white-700 h-8"></div>
+                <h1 className="mr-5 ml-3">13</h1>
+              </div>
             </li>
           </ol>
           <ol className="min-w-44 flex flex-1 flex-col justify-around mr-5 ml-5 round">
             <li className="text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
-              Vencedor
+            <Image src={LogoAdm} alt="Logo" width={35} className="mx-4"/>
+              Julia e Eduarda
             </li>
             <li className="text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
-              Vencedor
+            <Image src={LogoAdm} alt="Logo" width={35} className="mx-4"/>
+            Kaylany e Danielle
             </li>
           </ol>
           <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">

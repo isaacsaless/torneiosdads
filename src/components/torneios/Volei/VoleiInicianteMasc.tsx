@@ -22,8 +22,8 @@ export default function VoleiInicianteMasc() {
               Isaac e Gabriel
             </li>
             <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4"/>
-              Perdedor do 1° Jogo
+            <Image src={LogoDs} alt="Logo" width={35} className="mx-4"/>
+              Chaidisson e Levi
             </li>
           </ol>
           <ol className="com-connect flex flex-1 flex-col justify-around mr-5 ml-5 round">
