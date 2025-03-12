@@ -8,7 +8,7 @@ export default function VoleiAvancadoFem() {
     <div className="overflow-x-auto text-nowrap">
       <div className="flex mr-3 mt-16">
         <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
-          <li className="min-w-72 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="min-w-[340px] text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <div className="flex flex-row items-center justify-center">
               <Image src={LogoEst} alt="LogoAgn" width={40} className="mx-4" />
               <h1>Laysla e Kaivylane</h1>

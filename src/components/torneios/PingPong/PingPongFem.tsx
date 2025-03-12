@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { useEffect, useRef } from "react";
+import { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
 import Image from "next/image";
@@ -10,10 +10,7 @@ import LogoSister from "@/app/assets/logo-sister.png";
 export default function PingPongFem() {
   const winnerRef = useRef<HTMLLIElement>(null);
 
-  useEffect(() => {
-    // Animação ao carregar a página - removida para acontecer apenas no hover
-  }, []);
-
+  // Função para animar o confete
   const animateConfetti = () => {
     if (!winnerRef.current) return;
     
@@ -52,11 +49,16 @@ export default function PingPongFem() {
     }, 3000);
   };
 
+  // Usar useEffect para disparar o confete quando a página carregar
+  useEffect(() => {
+    animateConfetti();
+  }, []);
+
   return (
     <div className="overflow-x-auto text-nowrap">
       <div className="flex mr-3 mt-16">
         <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
-          <li className="min-w-48 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="min-w-60 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <div className="flex flex-row items-center justify-center">
               <Image
                 src={LogoSister}
@@ -113,7 +115,7 @@ export default function PingPongFem() {
           </li>
         </ol>
         <ol className="text-xl flex flex-1 flex-col justify-around mr-5 ml-5 round">
-          <li className="not-maain min-w-44 com-connect flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="not-maain min-w-56 com-connect flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
               <Image
                 src={LogoSister}
@@ -144,8 +146,8 @@ export default function PingPongFem() {
         <motion.li
             id="round-5"
             ref={winnerRef}
-            className="min-w-44 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
-            onHoverStart={animateConfetti} 
+            onHoverStart={animateConfetti}
+            className="min-w-64 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
           >
             <div className="flex flex-row items-center justify-center">
               <Image

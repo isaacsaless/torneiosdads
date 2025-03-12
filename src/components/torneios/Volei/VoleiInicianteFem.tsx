@@ -8,7 +8,7 @@ export default function VoleiInicianteFem() {
       <div className="overflow-x-auto text-nowrap">
         <div className="flex mr-3 mt-16">
           <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
-            <li className="min-w-72 text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <li className="min-w-80 text-xl flex justify-between items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
               <div className="flex flex-row items-center justify-center">
               <Image src={LogoAdm} alt="LogoAgn" width={40} className="mx-4"/>
               <h1>Julia e Eduarda</h1>
@@ -49,7 +49,7 @@ export default function VoleiInicianteFem() {
               </div>
             </li>
           </ol>
-          <ol className="min-w-44 flex flex-1 flex-col justify-around mr-5 ml-5 round">
+          <ol className="min-w-72 flex flex-1 flex-col justify-around mr-5 ml-5 round">
             <li className="text-xl com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={LogoAdm} alt="Logo" width={35} className="mx-4"/>
               Julia e Eduarda
