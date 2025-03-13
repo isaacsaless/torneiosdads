@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import confetti from "canvas-confetti";
 import Image from "next/image";
@@ -9,6 +9,10 @@ import LogoSister from "@/app/assets/logo-sister.png";
 
 export default function PingPongFem() {
   const winnerRef = useRef<HTMLLIElement>(null);
+    const [isShaking, setIsShaking] = useState(false);
+  
+    const handleMouseEnter = () => setIsShaking(true);
+    const handleMouseLeave = () => setIsShaking(false);
 
   const animateConfetti = () => {
     if (!winnerRef.current) return;
@@ -142,6 +146,8 @@ export default function PingPongFem() {
             id="round-5"
             ref={winnerRef}
             onHoverStart={animateConfetti}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
             className="min-w-64 text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative finish"
           >
             <div className="flex flex-row items-center justify-center">
@@ -154,7 +160,9 @@ export default function PingPongFem() {
               <h1>Fernanda</h1>
             </div>
             <div className="flex flex-row items-center justify-center">
-              <h1 className="mr-5 ml-3">🏆</h1>
+              <h1 className={`mr-5 ml-3 ${
+                isShaking ? "animate-shake" : ""
+              }`}>🏆</h1>
             </div>
           </motion.li>
         </ol>

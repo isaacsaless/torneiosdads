@@ -14,6 +14,22 @@
   }
 }
 
+@keyframes shake {
+  0%, 100% {
+    transform: scale(1) rotateZ(0);
+  }
+  25%, 75% {
+    transform: scale(1.5) rotateZ(25deg);
+  }
+  50% {
+    transform: scale(1.6) rotateZ(-25deg);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.8s ease forwards;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -78,13 +94,21 @@ body {
 /*
   Incoming connector
  */
-
-.round + .round .com-connect.with-connector:before {
+ .round + .round .com-connect.with-connector:before {
   content: " ";
   position: absolute;
   left: -1.75rem;
   top: 50%;
   width: 1.25rem;
+  border-top: 2px solid #746abe;
+}
+
+.round + .round .com-connect-especial.with-connector:before {
+  content: " ";
+  position: absolute;
+  left: -4.3rem;
+  top: 50%;
+  width: 3.7rem;
   border-top: 2px solid #746abe;
 }
 
