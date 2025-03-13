@@ -20,7 +20,7 @@ export default function Index() {
   return (
     <div className="w-full overflow-x-hidden flex flex-col">
       <Selector activePage={activePage} setActivePage={setActivePage} />
-      <div>
+      <div className="">
         {activePage === "volei-masc-avancado" && (
           <div>
             <VoleiAvancadoMasc />
