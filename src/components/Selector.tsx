@@ -56,7 +56,7 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
               }`}
             >
               PingPong Masc. Avançado
-            </button>
+            </button> */}
             <button
               onClick={() => setActivePage("pingpong-masc-iniciante")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
@@ -66,7 +66,7 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
               }`}
             >
               PingPong Masc. Iniciante
-            </button> */}
+            </button>
           <button
             onClick={() => setActivePage("pingpong-feminino")}
             className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
