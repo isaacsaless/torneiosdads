@@ -57,23 +57,29 @@ export default function VoleiAvancadoMasc() {
               <h1 className="mr-5 ml-3">1</h1>
           </div>
           </li>
-          <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={40} className="mx-4" />
-            --
-          </li>
-          <li className="com-connect-especial text-xl text-nowrap flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
-            <Image src={QuestionMark} alt="Logo" width={40} className="mx-4" />
-            <h1>--</h1>
+            <Image src={LogoSister} alt="Logo" width={40} className="mx-4" />
+            <h1>Ary</h1>
             </div>
-            {/* <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center">
               <div className="border-1 border-white-700 h-8"></div>
-              <h1 className="mr-5 ml-3">25</h1>
-            </div> */}
+              <h1 className="mr-5 ml-3">2</h1>
+            </div>
+          </li>
+          <li className="com-connect-especial text-xl text-nowrap flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoSister} alt="Logo" width={40} className="mx-4" />
+            <h1>Daniel</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">0</h1>
+            </div>
           </li>
         </ol>
         <ol className="text-xl flex flex-1 flex-col justify-around mr-5 ml-5 round">
-          <li className="min-w-60 com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="min-w-44 com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
             Vencedor
           </li>
@@ -98,8 +104,14 @@ export default function VoleiAvancadoMasc() {
           </div> */}
           </li>
           <li className="com-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
-            Melhor perdedor
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoSister} alt="Logo" width={40} className="mx-4" />
+            <h1>Ary</h1>
+            </div>
+            {/* <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">2</h1>
+            </div> */}
           </li>
         </ol>
         <ol className="flex flex-1 flex-col justify-around mr-5 ml-5 round">
