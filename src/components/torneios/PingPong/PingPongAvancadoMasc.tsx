@@ -22,28 +22,40 @@ export default function VoleiAvancadoMasc() {
             <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
             <h1>Isaac</h1>
             </div>
-            {/* <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center">
               <div className="border-1 border-white-700 h-8"></div>
-              <h1 className="mr-5 ml-3">25</h1>
-            </div> */}
+              <h1 className="mr-5 ml-3">2</h1>
+            </div>
           </li>
           <li className="text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
             <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
             <h1>Shinoda</h1>
             </div>
-            {/* <div className="flex flex-row items-center justify-center">
+            <div className="flex flex-row items-center justify-center">
               <div className="border-1 border-white-700 h-8"></div>
-              <h1 className="mr-5 ml-3">12</h1>
-            </div> */}
+              <h1 className="mr-5 ml-3">0</h1>
+            </div>
           </li>
-          <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
             <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
-            Eliel
+            <h1>Eliel</h1>
+          </div>
+          <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">2</h1>
+          </div>
           </li>
-          <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
             <Image src={LogoAdm} alt="Logo" width={40} className="mx-4" />
-            José
+            <h1>José</h1>
+          </div>
+          <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">1</h1>
+          </div>
           </li>
           <li className="text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={QuestionMark} alt="Logo" width={40} className="mx-4" />
@@ -67,17 +79,23 @@ export default function VoleiAvancadoMasc() {
           </li>
           <li className="com-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
-            <Image src={QuestionMark} alt="Logo" width={40} className="mx-4" />
-            <h1>Vencedor</h1>
+            <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
+            <h1>Isaac</h1>
             </div>
             {/* <div className="flex flex-row items-center justify-center">
               <div className="border-1 border-white-700 h-8"></div>
-              <h1 className="mr-5 ml-3">25</h1>
+              <h1 className="mr-5 ml-3">2</h1>
             </div> */}
           </li>
           <li className="com-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
-            Vencedor
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
+            <h1>Eliel</h1>
+          </div>
+          {/* <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">2</h1>
+          </div> */}
           </li>
           <li className="com-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />

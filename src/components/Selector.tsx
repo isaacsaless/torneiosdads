@@ -76,8 +76,8 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
             PingPong Feminino
           </button>
         </div>
-        {/* <div className="flex border-b-2 border-[#4f4f4f] gap-2">
-            <button
+        <div className="flex border-b-2 border-[#4f4f4f] gap-2">
+            {/* <button
               onClick={() => setActivePage("valorant")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
                 activePage === "valorant" ? "!text-black bg-white" : ""
@@ -92,7 +92,7 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
               }`}
             >
               LoL
-            </button>
+            </button> */}
             <button
               onClick={() => setActivePage("free-fire")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
@@ -101,15 +101,15 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
             >
               Free Fire
             </button>
-            <button
+            {/* <button
               onClick={() => setActivePage("brawl-stars")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
                 activePage === "brawl-stars" ? "!text-black bg-white" : ""
               }`}
             >
               Brawl Stars
-            </button>
-          </div> */}
+            </button> */}
+          </div>
       </div>
     </div>
   );

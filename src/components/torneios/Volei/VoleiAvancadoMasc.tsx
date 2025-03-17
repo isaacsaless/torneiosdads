@@ -8,7 +8,7 @@ export default function VoleiAvancadoMasc() {
   return (
     <div className="overflow-x-scroll min-h-[680px] overflow-y-hidden text-nowrap">
       <div className="flex mr-3 mt-16">
-        <ol className="flex flex-1 flex-col round mr-20 translate-y-103">
+        <ol className="flex flex-1 flex-col round mr-20 translate-y-104">
           <li className="extra-connect min-w-[350px] text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
             <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
@@ -65,12 +65,12 @@ export default function VoleiAvancadoMasc() {
             Kaue e Mikael
           </li>
           <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
-            Pablo e Gustavo
-          </li>
-          <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={LogoSister} alt="Logo" width={40} className="mx-4" />
             Heytor e Nauâ
+          </li>
+          <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+            <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
+            Pablo e Gustavo
           </li>
           <li className="extra-connect com-connect-especial text-xl text-nowrap flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
