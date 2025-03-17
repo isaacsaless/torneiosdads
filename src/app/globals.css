@@ -72,7 +72,15 @@ body {
 }
 
 .round:nth-child(2) .with-connector:after {
-  height: 60px;
+  height: 70px;
+}
+
+.extra-connect.with-connector:after {
+  height: 40px!important;
+}
+
+.extra-connect2.with-connector:after {
+  height: 80px!important;
 }
 
 .round:nth-child(2) .not-maain.with-connector:after {
@@ -80,7 +88,7 @@ body {
 }
 
 .round:nth-child(3) .with-connector:after {
-  height: 120px;
+  height: 130px;
 }
 
 .round:nth-child(4) .with-connector:after {

@@ -47,7 +47,7 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
           </button>
         </div>
         <div className="flex mb-4 border-b-2 border-[#4f4f4f] gap-2">
-          {/* <button
+          <button
               onClick={() => setActivePage("pingpong-masc-avancado")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
                 activePage === "pingpong-masc-avancado"
@@ -56,7 +56,7 @@ export default function Selector({ activePage, setActivePage }: SelectorProps) {
               }`}
             >
               PingPong Masc. Avançado
-            </button> */}
+            </button>
             <button
               onClick={() => setActivePage("pingpong-masc-iniciante")}
               className={`cursor-pointer text-white hover:bg-white hover:text-black rounded-full py-1 px-4 text-lg whitespace-nowrap transition duration-300 ease-in-out ${
