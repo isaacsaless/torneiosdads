@@ -32,13 +32,25 @@ export default function VoleiAvancadoMasc() {
           </li>
         </ol>
         <ol className="flex flex-1 flex-col justify-around mr-5 round">
-          <li className="extra-connect min-w-80 flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector text-xl">
-            <Image src={LogoAgn} alt="Logo" width={40} className="mx-4" />
-            Gustavo e Ythalo
+          <li className="extra-connect min-w-80 flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector text-xl">
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoAgn} alt="Logo" width={40} className="ml-4 mr-1" />
+            <h1>Gustavo e Ythalo</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">25</h1>
+            </div>
           </li>
-          <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
-            Emanuel e Henzo
+          <li className="extra-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoDs} alt="Logo" width={40} className="ml-1 mr-2" />
+            <h1>Emanuel e Henzo</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">27</h1>
+            </div>
           </li>
           <li className="extra-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
@@ -60,13 +72,25 @@ export default function VoleiAvancadoMasc() {
               <h1 className="mr-5 ml-3">12</h1>
             </div>
           </li>
-          <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="extra-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
             <Image src={LogoAgn} alt="Logo" width={40} className="mx-4" />
-            Kaue e Mikael
+            <h1>Kaue e Mikael</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">25</h1>
+            </div>
           </li>
-          <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <li className="extra-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
+          <div className="flex flex-row items-center justify-center">
             <Image src={LogoSister} alt="Logo" width={40} className="mx-4" />
-            Heytor e Nauâ
+            <h1>Heytor e Nauâ</h1>
+            </div>
+            <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">18</h1>
+            </div>
           </li>
           <li className="extra-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={LogoDs} alt="Logo" width={40} className="mx-4" />
@@ -85,8 +109,14 @@ export default function VoleiAvancadoMasc() {
         </ol>
         <ol className="text-xl flex flex-1 flex-col justify-around mr-5 ml-5 round">
           <li className="extra-connect2 min-w-60 com-connect flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
-            Vencedor
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoDs} alt="Logo" width={40} className="ml-1 mr-2" />
+            <h1>Emanuel e Henzo</h1>
+            </div>
+            {/* <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">27</h1>
+            </div> */}
           </li>
           <li className="extra-connect2 com-connect text-xl flex items-center justify-between m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
           <div className="flex flex-row items-center justify-center">
@@ -99,8 +129,14 @@ export default function VoleiAvancadoMasc() {
             </div> */}
           </li>
           <li className="extra-connect2 com-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
-            <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
-            Vencedor
+          <div className="flex flex-row items-center justify-center">
+            <Image src={LogoAgn} alt="Logo" width={40} className="mx-4" />
+            <h1>Kaue e Mikael</h1>
+            </div>
+            {/* <div className="flex flex-row items-center justify-center">
+              <div className="border-1 border-white-700 h-8"></div>
+              <h1 className="mr-5 ml-3">25</h1>
+            </div> */}
           </li>
           <li className="extra-connect2 com-connect text-xl flex items-center m-2 p-1 leading-relaxed bg-gray-600 text-gray-300 rounded-full relative with-connector">
             <Image src={QuestionMark} alt="Logo" width={35} className="mx-4" />
